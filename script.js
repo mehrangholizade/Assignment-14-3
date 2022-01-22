@@ -13,7 +13,12 @@ function login(){
   main.style.display="block";
 }
 function darkmode(){
-    main.style.backgroundColor="skyblue";
+    if(dark_mode.checked){
+        main.style.backgroundColor="skyblue";
+    }
+    else{
+        main.style.backgroundColor="rgba(241, 209, 209, 0.959)";
+    }
 }
 function single(){
     spouse.style.display="none";
