@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Mehran Gholizadeh">
+    <meta name="description" content="Login Page">
+    <meta name="keywords" content="Login Page,html,css,js and  ...">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <button id="login" onclick="login()"><b>ثبت نام</b></button>
+    <div id="container">
+        <div>
+            <h3>ثبت نام</h3>
+            <input id="darkmode" onclick="darkmode()"  type="checkbox">حالت تاریک
+            <hr>
+            <h2>نام</h2>
+            <input type="text" placeholder="Enter your f* Name">
+            <h2>ایمیل</h2>
+            <input type="text" placeholder="Enter your f* Email">
+            <b><p style="text-align: center;">ایمیل شما به کاربران نمایش داده نمی شود</p></b>
+            <h2>کلمه عبور</h2>
+            <input type="password" placeholder="Password">
+            <br>
+            <br>
+            <input id="single" onclick="single()" name="s/m" type="radio">مجرد
+            <br>
+            <input  id="married" onclick="married()" name="s/m" type="radio">متاهل
+            <h2 id="spouse_name">نام همسر</h2>
+            <input id="inp" type="text" placeholder="Spouse Name">
+            <br>
+            <br>
+            <input id="having_child" onclick="child()" type="checkbox">دارای فرزند
+            <br>
+            <br>
+            <span id="children">فرزندان </span>
+            <br>
+            <button id="plus" onclick="add_input()">+</button>
+            <button id="minus" onclick="remove_input()">-</button>
+            <br>
+            <br>
+            <br>
+            <ul id="child_list"></ul>
+            <button id="login_n2">ثبت نام</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>

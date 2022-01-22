@@ -1,0 +1,57 @@
+body
+{
+    direction: rtl;
+    background-color: rgba(241, 209, 209, 0.959);
+}
+#login
+{
+    position: relative;
+    right: 35%;
+    width: 25%;
+    height: 40;
+    background-color: rgb(94, 208, 243);
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#container
+{
+position: relative;
+width: 100%;
+border-style: solid;
+font-size: 14px;
+width: 400px;
+padding: 5px;
+margin-right: 34%;
+margin-top: 10px;
+display: none;
+}
+#login_n2
+{
+    position: relative;
+    right: 35%;
+    width: 25%;
+    height: 40;
+    background-color: darkblue;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#spouse_name,#inp{
+    display: none;
+}
+#plus,#minus,#children{
+    display: none;
+}
+#plus{
+    background-color: blue;
+}
+#minus{
+    background-color: red;
+}
